@@ -19,7 +19,7 @@ class MyHomePage extends StatelessWidget {
         title: const Text(
           'Shopping List',
         ),
-        backgroundColor: Color.fromARGB(255, 231, 147, 1),
+        backgroundColor: Color.fromARGB(255, 31, 164, 148),
         foregroundColor: Colors.white,
       ),
       // Masukkan drawer sebagai parameter nilai drawer dari widget Scaffold

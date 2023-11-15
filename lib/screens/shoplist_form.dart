@@ -94,7 +94,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                   ),
                   onChanged: (String? value) {
                     setState(() {
-                      _description = value!; // TODO: Tambahkan variabel yang sesuai
+                      _description = value!; 
                     });
                   },
                   validator: (String? value) {
@@ -125,7 +125,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text('Nama: $_name'),
-                                    Text('Harga: $_price'), // TODO: Munculkan value-value lainnya
+                                    Text('Harga: $_price'),
                                     Text('Deskripsi: $_description'),
                                   ],
                                 ),
