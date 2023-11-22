@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
                 CookieRequest request = CookieRequest();
                 return request;
             },
+            
       child: MaterialApp(
         title: 'Flutter App',
         theme: ThemeData(
